@@ -1,0 +1,14 @@
+{
+    "name": "backend-notes-mobile-api-encryption",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Educational ECDH, HKDF and AES-GCM payload encryption example",
+    "type": "commonjs",
+    "engines": {
+        "node": ">=22"
+    },
+    "scripts": {
+        "demo": "node demo.js",
+        "test": "node --test test/*.test.js"
+    }
+}
