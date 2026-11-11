@@ -1,0 +1,15 @@
+node_modules/
+coverage/
+*.log
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.crt
+
+# 게시 채널별 초안과 검토 기록은 로컬에서 관리한다.
+behavioral_guard/api_abuse_behavioral_defense_blog.md
+behavioral_guard/Linkedin.md
+behavioral_guard/behavioral_defense_architecture.png
+docs/reviews/
