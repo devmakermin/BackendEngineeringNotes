@@ -9,6 +9,8 @@ last_updated: 2026-11-11
 
 **HTTPS 위의 데이터 암호화를 고정 키·HKDF·ECDH 관점에서 비교하는 설계와 Node.js 예제**
 
+**GitHub:** [모바일 API 데이터 암호화 문서와 예제](https://github.com/devmakermin/BackendEngineeringNotes/tree/main/mobile_api_encryption)
+
 HTTPS로 필요한 보호를 충족한다면 별도의 본문 암호화는 필수가 아닙니다. 이 주제는 **TLS 종료 지점 이후에도 특정 데이터의 원문을 제한해야 하는 경우**를 출발점으로, 비밀값의 생성·합의·보관·교체와 복호화 위치를 정리합니다.
 
 > [!IMPORTANT]

@@ -15,6 +15,8 @@ last_updated: 2026-11-11
 
 이 글에서는 그 필요성을 먼저 구분한 뒤, 세 가지 접근을 비교한다. 구현은 [실행 안내](README.md), 패킷과 운영 정책은 [상세 설계](mobile_api_encryption_design.md)에서 확인할 수 있다.
 
+**GitHub 코드와 문서:** [모바일 API 데이터 암호화](https://github.com/devmakermin/BackendEngineeringNotes/tree/main/mobile_api_encryption)
+
 ## 1. 알고리즘을 고르기 전에 복호화 지점을 정한다
 
 TLS는 통신 양 끝 사이의 기밀성과 무결성을 제공하고 서버 인증을 지원한다. 하지만 TLS 연결이 종료된 뒤 애플리케이션이 다루는 평문까지 자동으로 보호하지는 않는다. [OWASP TLS Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet.html)

@@ -9,6 +9,8 @@ last_updated: 2026-11-11
 
 이 문서는 [기술 글](mobile_api_encryption_article.md)의 구현 계약을 구체화한다. 아래에서 **구현**은 로컬 예제의 동작, **운영 확장**은 아직 구현·검증하지 않은 사항을 뜻한다. 프로토콜 보안 검토나 모바일 상호 운용성 검증이 완료된 명세가 아니다.
 
+**GitHub 코드와 실행 안내:** [모바일 API 데이터 암호화](https://github.com/devmakermin/BackendEngineeringNotes/tree/main/mobile_api_encryption)
+
 ## 1. 목표와 신뢰 경계
 
 목표는 TLS 종료 중간 시스템이 본문 원문을 볼 필요가 없는 구조를 설명하는 것이다. 앱과 지정 API 복호화 서버는 평문에 접근하며, HTTPS와 기존 인증·인가는 계속 필요하다.
